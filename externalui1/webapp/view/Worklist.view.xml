@@ -2,7 +2,9 @@
 	controllerName="ns.externalui1.controller.Worklist"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
-	xmlns:semantic="sap.f.semantic">
+	xmlns:semantic="sap.f.semantic"
+    xmlns:reuse="ns.reuse.control"
+    >
 
 	<semantic:SemanticPage
 		id="page"
@@ -14,6 +16,7 @@
 		</semantic:titleHeading>
 
 		<semantic:content>
+      
 			<Table
 				id="table"
 				width="auto"
@@ -31,6 +34,7 @@
 
 				<headerToolbar>
 					<Toolbar>
+                      	<reuse:Example ></reuse:Example>
 						<Title id="tableHeader" text="{worklistView>/worklistTableTitle}"/>
 						<ToolbarSpacer />
 						<SearchField

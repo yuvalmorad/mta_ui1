@@ -1,5 +1,5 @@
 sap.ui.define([
-	"./BaseController",
+	"ns/reuse/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/routing/History",
 	"../model/formatter"

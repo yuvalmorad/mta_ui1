@@ -1,5 +1,5 @@
 sap.ui.define([
-	"./BaseController"
+	"ns/reuse/controller/BaseController"
 ], function (BaseController) {
 	"use strict";
 

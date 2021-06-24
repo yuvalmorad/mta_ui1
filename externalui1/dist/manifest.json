@@ -44,12 +44,18 @@
             "async": true,
             "id": "app"
         },
+        "resourceRoots": {
+            "ns.reuse": "../nsreuse"
+        },
         "dependencies": {
             "minUI5Version": "1.66.0",
             "libs": {
                 "sap.ui.core": {},
                 "sap.m": {},
                 "sap.f": {}
+            },
+            "components": {
+                "ns.reuse": {}
             }
         },
         "contentDensities": {

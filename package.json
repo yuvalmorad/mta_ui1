@@ -4,7 +4,6 @@
   "repository": "<Add your repository here>",
   "license": "UNLICENSED",
   "private": true,
-
   "devDependencies": {
     "@sap/ux-specification": "^1.90.1"
   },
